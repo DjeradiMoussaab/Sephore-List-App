@@ -1,0 +1,6 @@
+framework module Pods_Sephore_List_App_Sephore_List_AppUITests {
+  umbrella header "Pods-Sephore List App-Sephore List AppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

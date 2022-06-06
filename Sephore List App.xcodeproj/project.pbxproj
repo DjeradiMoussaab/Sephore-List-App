@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78C7C0AD8AD2A02C7EC567FC /* Pods_Sephore_List_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4550A0578A559D3839B4BD /* Pods_Sephore_List_AppTests.framework */; };
 		8E6F6052284D6EF600EA7432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6051284D6EF600EA7432 /* AppDelegate.swift */; };
 		8E6F6054284D6EF600EA7432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6053284D6EF600EA7432 /* SceneDelegate.swift */; };
 		8E6F6056284D6EF600EA7432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6055284D6EF600EA7432 /* ViewController.swift */; };
@@ -21,6 +22,13 @@
 		8E6F608A284D72D400EA7432 /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6089284D72D400EA7432 /* ProductListVC.swift */; };
 		8E6F608B284D72D400EA7432 /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6089284D72D400EA7432 /* ProductListVC.swift */; };
 		8E6F608E284D739900EA7432 /* PairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F608D284D739900EA7432 /* PairingViewController.swift */; };
+		8E6F6090284D7B2800EA7432 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F608F284D7B2800EA7432 /* RootViewController.swift */; };
+		8E6F6094284D80B700EA7432 /* ProductListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6093284D80B700EA7432 /* ProductListTableViewCell.swift */; };
+		8E6F6099284E49DA00EA7432 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F6098284E49DA00EA7432 /* Product.swift */; };
+		8E6F609B284E4B6C00EA7432 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F609A284E4B6C00EA7432 /* ProductService.swift */; };
+		8E6F609F284E659200EA7432 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6F609E284E659200EA7432 /* UIImageExtension.swift */; };
+		D1765B9258C8B559D4D6AE8B /* Pods_Sephore_List_App_Sephore_List_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106352BA5325D68EF295E9CF /* Pods_Sephore_List_App_Sephore_List_AppUITests.framework */; };
+		E6788339FC53CBFA361F57A4 /* Pods_Sephore_List_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ECA3A39A069B93880511BA /* Pods_Sephore_List_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB2BDF5D8645FBA6453E803 /* Pods-Sephore List AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sephore List AppTests.release.xcconfig"; path = "Target Support Files/Pods-Sephore List AppTests/Pods-Sephore List AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		106352BA5325D68EF295E9CF /* Pods_Sephore_List_App_Sephore_List_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sephore_List_App_Sephore_List_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E95D6435F30F7DFBF95E6AD /* Pods-Sephore List App-Sephore List AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sephore List App-Sephore List AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sephore List App-Sephore List AppUITests/Pods-Sephore List App-Sephore List AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62B6A2F882BB7262046B9524 /* Pods-Sephore List AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sephore List AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Sephore List AppTests/Pods-Sephore List AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BE133510331BD4343AAE10D /* Pods-Sephore List App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sephore List App.release.xcconfig"; path = "Target Support Files/Pods-Sephore List App/Pods-Sephore List App.release.xcconfig"; sourceTree = "<group>"; };
 		8E6F604E284D6EF600EA7432 /* Sephore List App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sephore List App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6F6051284D6EF600EA7432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E6F6053284D6EF600EA7432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +70,15 @@
 		8E6F6086284D72B000EA7432 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		8E6F6089284D72D400EA7432 /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
 		8E6F608D284D739900EA7432 /* PairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingViewController.swift; sourceTree = "<group>"; };
+		8E6F608F284D7B2800EA7432 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		8E6F6093284D80B700EA7432 /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
+		8E6F6098284E49DA00EA7432 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		8E6F609A284E4B6C00EA7432 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		8E6F609E284E659200EA7432 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		AF939828FC66CDCA9D084CCC /* Pods-Sephore List App-Sephore List AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sephore List App-Sephore List AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Sephore List App-Sephore List AppUITests/Pods-Sephore List App-Sephore List AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C8F53367C1D6424E30B67685 /* Pods-Sephore List App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sephore List App.debug.xcconfig"; path = "Target Support Files/Pods-Sephore List App/Pods-Sephore List App.debug.xcconfig"; sourceTree = "<group>"; };
+		EE4550A0578A559D3839B4BD /* Pods_Sephore_List_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sephore_List_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6ECA3A39A069B93880511BA /* Pods_Sephore_List_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sephore_List_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6788339FC53CBFA361F57A4 /* Pods_Sephore_List_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C7C0AD8AD2A02C7EC567FC /* Pods_Sephore_List_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1765B9258C8B559D4D6AE8B /* Pods_Sephore_List_App_Sephore_List_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BD5B0F00804DEFFC1AFFFEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6ECA3A39A069B93880511BA /* Pods_Sephore_List_App.framework */,
+				106352BA5325D68EF295E9CF /* Pods_Sephore_List_App_Sephore_List_AppUITests.framework */,
+				EE4550A0578A559D3839B4BD /* Pods_Sephore_List_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		874330D3BF8DF01C095B8A5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8F53367C1D6424E30B67685 /* Pods-Sephore List App.debug.xcconfig */,
+				7BE133510331BD4343AAE10D /* Pods-Sephore List App.release.xcconfig */,
+				1E95D6435F30F7DFBF95E6AD /* Pods-Sephore List App-Sephore List AppUITests.debug.xcconfig */,
+				AF939828FC66CDCA9D084CCC /* Pods-Sephore List App-Sephore List AppUITests.release.xcconfig */,
+				62B6A2F882BB7262046B9524 /* Pods-Sephore List AppTests.debug.xcconfig */,
+				0DB2BDF5D8645FBA6453E803 /* Pods-Sephore List AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8E6F6045284D6EF600EA7432 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +139,8 @@
 				8E6F6067284D6EF700EA7432 /* Sephore List AppTests */,
 				8E6F6071284D6EF700EA7432 /* Sephore List AppUITests */,
 				8E6F604F284D6EF600EA7432 /* Products */,
+				874330D3BF8DF01C095B8A5B /* Pods */,
+				7BD5B0F00804DEFFC1AFFFEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +157,7 @@
 		8E6F6050284D6EF600EA7432 /* Sephore List App */ = {
 			isa = PBXGroup;
 			children = (
+				8E6F6095284D8FF700EA7432 /* Extensions */,
 				8E6F608C284D736C00EA7432 /* Utility */,
 				8E6F6084284D6F5700EA7432 /* Models */,
 				8E6F6083284D6F4500EA7432 /* Services */,
@@ -158,6 +209,7 @@
 		8E6F6083284D6F4500EA7432 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8E6F609A284E4B6C00EA7432 /* ProductService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -165,6 +217,7 @@
 		8E6F6084284D6F5700EA7432 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				8E6F6098284E49DA00EA7432 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +227,7 @@
 			children = (
 				8E6F6086284D72B000EA7432 /* ProductListView.swift */,
 				8E6F6089284D72D400EA7432 /* ProductListVC.swift */,
+				8E6F6093284D80B700EA7432 /* ProductListTableViewCell.swift */,
 			);
 			path = ProductListScene;
 			sourceTree = "<group>";
@@ -182,8 +236,17 @@
 			isa = PBXGroup;
 			children = (
 				8E6F608D284D739900EA7432 /* PairingViewController.swift */,
+				8E6F608F284D7B2800EA7432 /* RootViewController.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		8E6F6095284D8FF700EA7432 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F609E284E659200EA7432 /* UIImageExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E6F6078284D6EF700EA7432 /* Build configuration list for PBXNativeTarget "Sephore List App" */;
 			buildPhases = (
+				C4E4CEEBDEF22FADAE49EA55 /* [CP] Check Pods Manifest.lock */,
 				8E6F604A284D6EF600EA7432 /* Sources */,
 				8E6F604B284D6EF600EA7432 /* Frameworks */,
 				8E6F604C284D6EF600EA7432 /* Resources */,
+				3CBBDD4DF34ACD87141F1732 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E6F607B284D6EF700EA7432 /* Build configuration list for PBXNativeTarget "Sephore List AppTests" */;
 			buildPhases = (
+				DCEECF41EB67A396B1EAB0F9 /* [CP] Check Pods Manifest.lock */,
 				8E6F6060284D6EF700EA7432 /* Sources */,
 				8E6F6061284D6EF700EA7432 /* Frameworks */,
 				8E6F6062284D6EF700EA7432 /* Resources */,
@@ -228,9 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E6F607E284D6EF700EA7432 /* Build configuration list for PBXNativeTarget "Sephore List AppUITests" */;
 			buildPhases = (
+				E798CDD3DD6CF451997F6EE1 /* [CP] Check Pods Manifest.lock */,
 				8E6F606A284D6EF700EA7432 /* Sources */,
 				8E6F606B284D6EF700EA7432 /* Frameworks */,
 				8E6F606C284D6EF700EA7432 /* Resources */,
+				0CE02B461281964270CF553C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -312,17 +380,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CE02B461281964270CF553C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sephore List App-Sephore List AppUITests/Pods-Sephore List App-Sephore List AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sephore List App-Sephore List AppUITests/Pods-Sephore List App-Sephore List AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sephore List App-Sephore List AppUITests/Pods-Sephore List App-Sephore List AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CBBDD4DF34ACD87141F1732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sephore List App/Pods-Sephore List App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sephore List App/Pods-Sephore List App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sephore List App/Pods-Sephore List App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E4CEEBDEF22FADAE49EA55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sephore List App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCEECF41EB67A396B1EAB0F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sephore List AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E798CDD3DD6CF451997F6EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sephore List App-Sephore List AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8E6F604A284D6EF600EA7432 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8E6F608A284D72D400EA7432 /* ProductListVC.swift in Sources */,
+				8E6F6094284D80B700EA7432 /* ProductListTableViewCell.swift in Sources */,
 				8E6F608E284D739900EA7432 /* PairingViewController.swift in Sources */,
 				8E6F6087284D72B000EA7432 /* ProductListView.swift in Sources */,
+				8E6F6090284D7B2800EA7432 /* RootViewController.swift in Sources */,
 				8E6F6056284D6EF600EA7432 /* ViewController.swift in Sources */,
+				8E6F6099284E49DA00EA7432 /* Product.swift in Sources */,
+				8E6F609B284E4B6C00EA7432 /* ProductService.swift in Sources */,
 				8E6F6052284D6EF600EA7432 /* AppDelegate.swift in Sources */,
 				8E6F6054284D6EF600EA7432 /* SceneDelegate.swift in Sources */,
+				8E6F609F284E659200EA7432 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +674,7 @@
 		};
 		8E6F6079284D6EF700EA7432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F53367C1D6424E30B67685 /* Pods-Sephore List App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -526,6 +703,7 @@
 		};
 		8E6F607A284D6EF700EA7432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE133510331BD4343AAE10D /* Pods-Sephore List App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -554,6 +732,7 @@
 		};
 		8E6F607C284D6EF700EA7432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62B6A2F882BB7262046B9524 /* Pods-Sephore List AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -574,6 +753,7 @@
 		};
 		8E6F607D284D6EF700EA7432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DB2BDF5D8645FBA6453E803 /* Pods-Sephore List AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +774,7 @@
 		};
 		8E6F607F284D6EF700EA7432 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E95D6435F30F7DFBF95E6AD /* Pods-Sephore List App-Sephore List AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,6 +793,7 @@
 		};
 		8E6F6080284D6EF700EA7432 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF939828FC66CDCA9D084CCC /* Pods-Sephore List App-Sephore List AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
